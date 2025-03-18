@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 79px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cyber {
+  font-family: "Jersey 10";
+  color: white;
+  font-size: xx-large;
+}
+
+.logo {
+  width: 68px;
+  height: 59px;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+
+.baner {
+  width: 370px;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.imgBaner {
+  width: 370px;
+  height: 123px;
+  margin-top: 10px;
+}
+
+.dark {
+  width: 370px;
+  height: 123px;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 84px;
+}
+
+.escrBaner {
+  font-family: "Jockey One";
+  color: white;
+  position: absolute;
+  top: 89px;
+  font-size: x-large;
+}
+
+.bottom {
+  width: 197px;
+  height: 173px;
+  background-color: #323232;
+  margin-bottom: -180px;
+}
+
+.limpezaimg {
+  width: 173px;
+  height: 116px;
+  position: relative;
+  top: 20px;
+  left: 13px;
+}
+
+.texto {
+  font-family: "Playfair Display";
+  font-size: x-large;
+  color: aqua;
+}
+
+.Limpeza {
+  position: relative;
+  bottom: 6px;
+  left: 50px;
+}
+
+.Backup {
+  position: relative;
+  bottom: 6px;
+  left: 58px;
+}
+
+.promo {
+  width: 70px;
+  height: 100%;
+  position: relative;
+  bottom: 215px;
+  left: 151px;
+}
+
+.Virus {
+  position: relative;
+}
+
+.card3 {
+  margin-top: -70px;
+}
+
+.programação {
+  position: relative;
+  bottom: 6px;
+  left: 25px;
+}
+
+.Design {
+  position: relative;
+  bottom: 6px;
+  left: 60px;
+}
+
+.RAM {
+  position: relative;
+  bottom: 6px;
+  left: 20px;
+}
+
+.esgotado {
+  font-family: "Itim";
+  font-size: 28px;
+  color: red;
+  position: relative;
+  bottom: 173px;
+  left: 120px;
+  transform: rotate(35deg);
+}
+
+.formatar {
+  position: relative;
+  bottom: 6px;
+  left: 30px;
+}
+
+.card7 {
+  position: relative;
+  bottom: 60px;
+}
+
+.Processador {
+  position: relative;
+  bottom: 6px;
+  left: 30px;
+}
+
+.card8{
+  position: relative;
+  bottom: 60px;
+}
+
+.footer{
+  width: 100%;
+  height: 69px;
+  background-color: black;
+}
+
+.local{
+  width: 27px;
+  height: 30px;
+  position: relative;
+  bottom: 10px;
+  right: 60px;
+}
+
+.textl{
+  color: white;
+
+}
