@@ -1,4 +1,4 @@
-body {
+.body {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -104,10 +104,6 @@ body {
   position: relative;
 }
 
-.card3 {
-  margin-top: -70px;
-}
-
 .programação {
   position: relative;
   bottom: 6px;
@@ -174,5 +170,13 @@ body {
 
 .textl{
   color: white;
+  position: relative;
+  bottom: 60px;
+  left: 250px;
 
+}
+
+.b{
+  position: relative;
+  top: 5px;
 }
