@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -71,12 +72,9 @@ function App() {
           <p className="Processador texto"> Processador </p>
         </div>
       </div>
-      <div className="footer">
-        <img src="c:\Users\Estudante\Downloads\icons8-computador-64.png" className="logo" />
-        <img src="c:\Users\Estudante\Downloads\icons8-local-48.png" className="local" />
-        <p className="textl"> Quarto:324</p>
-        <img src="c:\Users\Estudante\Downloads\image 13.png" className="insta" />
-      </div>
+
+    <Footer/>
+
       </div>
     </>
   );
