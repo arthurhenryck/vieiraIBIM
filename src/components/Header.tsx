@@ -1,3 +1,6 @@
+import React from "react" 
+import './Header.css' // Importa o CSS  
+
 function Header() {
     return (
         <>
@@ -8,3 +11,5 @@ function Header() {
         </>
     )
 }
+
+export default Header

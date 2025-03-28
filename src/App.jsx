@@ -1,17 +1,15 @@
 
 import React, { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-    <div className='body'>
-      <div className="header">{/*Cabeçalho*/}
-        <img src="c:\Users\Estudante\Downloads\icons8-computador-64.png" className="logo" />
-        <p className="cyber"> Cyber Assist </p>
-      </div>
+    <div>
+    <Header/>
 
       <div className="baner">{/*Baner*/}
         <img src="https://manutencaocomputadores.net/wp-content/uploads/2016/09/manutencao_pcs.jpg" className="imgBaner" />
