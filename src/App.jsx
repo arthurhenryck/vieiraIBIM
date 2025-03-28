@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Card from './components/Card';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -60,21 +61,12 @@ function App() {
           <p className="esgotado"> Esgotado </p>
         </div>
 
-        <div className="card7">{/*Card7*/}
-          <div className="bottom"></div>
-          <img src="https://img.odcdn.com.br/wp-content/uploads/2016/11/20161116152208.jpg" className="limpezaimg" />
-          <p className="formatar texto"> Formatação </p>
-        </div>
+        <Card produto="Limpeza"/>
 
-        <div className="card8">{/*Card8*/}
-          <div className="bottom"></div>
-          <img src="https://s.zst.com.br/cms-assets/2020/11/como-escolher-o-processador.jpg" className="limpezaimg" />
-          <p className="Processador texto"> Processador </p>
-        </div>
-      </div>
+        <Card produto="Processador"/>
 
     <Footer/>
-
+      </div>
       </div>
     </>
   );
