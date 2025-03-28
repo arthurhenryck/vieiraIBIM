@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 79px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    width: 68px;
+    height: 59px;
+    margin-left: 20px;
+    margin-right: 70px;
+  }
+
+  .cyber {
+    font-family: "Jersey 10";
+    color: white;
+    font-size: xx-large;
+  }
